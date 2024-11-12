@@ -1,0 +1,29 @@
+.transition-button{
+    transition-duration: 0.5s;
+    transition-property: all;
+    background-color: blue;
+}
+
+.transition-button:hover{
+    background-color: green;
+}
+
+.transition-div{
+    transition-duration: 1s;
+    width: 100px;
+}
+
+.transition-div:hover{
+    width: 200px;
+}
+
+
+.transition-text{
+    transition-duration: 0.3s;
+    transition-property:all;
+    font-size: 16px;
+}
+
+.transition-text:hover{
+    font-size: 24px;
+}
